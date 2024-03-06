@@ -1,0 +1,36 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	appearance: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+	/* font-family: 'K2D'; */
+}
+html{
+	font-size: 14px;
+}
+body{
+	width: 100vw;
+    height: 100vh;
+    font-family: 'K2D';
+    overflow-x: hidden;
+    font-size: 0.88rem;
+}
+/*------custom-scroll-bar - from w3schools.com------------------*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 12px;
+}
