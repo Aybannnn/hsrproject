@@ -10,12 +10,12 @@
         <link rel="icon" type="image/x-icon" href="{{asset('images/HSRLogo.png')}}">
     </head>
     <body>
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-transparent">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-transparent">
             <div class="container">
                 <a class="navbar-brand" href="#">Honkai Star Rail</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -30,7 +30,7 @@
                     </ul>
                 </div>
             </div>
-        </nav> -->
+        </nav>
         <div class="video-container text-center">
             <video autoplay loop muted style="width: 100%;">
                 <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">

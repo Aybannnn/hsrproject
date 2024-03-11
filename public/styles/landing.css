@@ -1,3 +1,11 @@
+.navbar-transparent {
+    background-color: transparent !important;
+    /* Remove border at the bottom of navbar */
+    border-bottom: none;
+}
+.navbar-transparent .navbar-nav .nav-link {
+    color: white; /* Change the color of the links to make them visible on the background */
+}
 .video-container {
     position: fixed;
     top: 0;
@@ -53,7 +61,6 @@
     border: none;
     box-shadow: none;
 }
-
 .transparent-modal .modal-dialog {
     background-color: transparent;
 }
