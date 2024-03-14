@@ -10,25 +10,25 @@
         <link rel="icon" type="image/x-icon" href="{{asset('images/HSRLogo.png')}}">
     </head>
     <body>
-        <div class="holder">
-            <section class="one">
-                <h1>FIRST</h1>
-                <div class="video-container">
-                    <video autoplay loop muted style="width: 100%;">
-                        <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">
-                    </video>
-                </div>
-                <div class="container">
-                    <div class="logo-holder">
-                        <img src="{{asset('images/HSRSoloLogo.png')}}" alt="">  
-                    </div>
-                </div>
-            </section>
-            
-            <section class="two">
-                <h1>SECONND</h1>
-            </section>
-        </div>
+    <div class="holder">
+        <section>
+            <div class="video-container">
+                <video autoplay loop muted style="width: 100%;">
+                    <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section>
+            <h1>Travel News</h1>
+        </section>
+        <section>
+            <h1>Guide</h1>
+        </section>
+        <section>
+            <h1>And Tips</h1>
+        </section>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="{{url('script/script.js')}}"></script>
     </body>
 </html>
