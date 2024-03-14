@@ -34,18 +34,24 @@
     <header>
         <nav>
             <a href="#home" class="nav-link active">Home</a>
-            <a href="#about" class="nav-link">News</a>
-            <a href="#services" class="nav-link">Character</a>
-            <a href="#portfolio" class="nav-link">Worlds</a>
-            <a href="#contact" class="nav-link">More</a>
+            <a href="#news" class="nav-link">News</a>
+            <a href="#characters" class="nav-link">Character</a>
+            <a href="#worlds" class="nav-link">Worlds</a>
+            <a href="#more" class="nav-link">More</a>
         </nav>
     </header>
     <main>
-        <section id="home">Home</section>
-        <section id="about">About</section>
-        <section id="services">Services</section>
-        <section id="portfolio">Portfolio</section>
-        <section id="contact">Contact</section>
+        <section id="home">
+            <div class="video-container">
+            <video autoplay loop muted style="width: 100%;">
+                <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">
+            </video>
+            </div>
+        </section>
+        <section id="news">About</section>
+        <section id="characters">Services</section>
+        <section id="worlds">Portfolio</section>
+        <section id="more">Contact</section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="{{url('script/script.js')}}"></script>
