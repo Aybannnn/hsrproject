@@ -1,48 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 nav {
     position: fixed;
-    left: 38%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
     display: flex;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
-    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    font-size: 16px;
+    gap: 3rem;
 }
-a {
+nav a {
     text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    
+}
+nav a:hover,
+nav a.active {
     color: black;
+    font-size: 20px;
 }
-.active {
-    font-size: 24px;
-    color: #2f2f30;
-}
-.content .holder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
     height: 100vh;
-    scroll-snap-type: y mandatory; 
     overflow-y: scroll;
+    scroll-snap-type: y mandatory;
 }
 section {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 100px;
+    font-weight: 700;
     scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
-.one {
-    background-color: white;
-}
-.two {
-    background-color: white;
+section:nth-child(odd) {
+    background: white;
 }

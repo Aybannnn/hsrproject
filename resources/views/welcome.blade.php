@@ -33,23 +33,19 @@
 <body>
     <header>
         <nav>
-            <a href="#" class="nav-link active">Home</a>
-            <a href="#" class="nav-link">News</a>
-            <a href="#" class="nav-link">Characters</a>
-            <a href="#" class="nav-link">Worlds</a>
-            <a href="#" class="nav-link">More</a>
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">News</a>
+            <a href="#services" class="nav-link">Character</a>
+            <a href="#portfolio" class="nav-link">Worlds</a>
+            <a href="#contact" class="nav-link">More</a>
         </nav>
     </header>
-    <main id="content">
-        <div class="holder">
-            <section class="one">
-                <h1>First Page</h1>
-            </section>
-
-            <section class="two">
-                <h1>Second Page</h1>
-            </section>
-        </div>
+    <main>
+        <section id="home">Home</section>
+        <section id="about">About</section>
+        <section id="services">Services</section>
+        <section id="portfolio">Portfolio</section>
+        <section id="contact">Contact</section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="{{url('script/script.js')}}"></script>
