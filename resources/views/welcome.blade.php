@@ -48,10 +48,10 @@
             </video>
             </div>
         </section>
-        <section id="news">About</section>
-        <section id="characters">Services</section>
-        <section id="worlds">Portfolio</section>
-        <section id="more">Contact</section>
+        <section id="news">News</section>
+        <section id="characters">Characters</section>
+        <section id="worlds">Worlds</section>
+        <section id="more">More</section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="{{url('script/script.js')}}"></script>
