@@ -82,3 +82,12 @@ section:not(:first-child) nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.logo-holder img {
+    width: 60rem;
+    position: relative;
+    top: -10rem;
+}
+.spacer {
+    color: black;
+    width: 100px;
+}

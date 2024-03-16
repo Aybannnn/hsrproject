@@ -43,9 +43,13 @@
     <main>
         <section id="home">
             <div class="video-container">
-            <video autoplay loop muted style="width: 100%;">
-                <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">
-            </video>
+                <video autoplay loop muted style="width: 100%;">
+                    <source src="{{asset('videos/hsrbackground.mp4')}}" type="video/mp4">
+                </video>
+            </div>
+            <div class="spacer"></div>
+            <div class="logo-holder">
+                <img src="{{asset('images/HSRSoloLogo.png')}}">
             </div>
         </section>
         <section id="news">News</section>
@@ -54,6 +58,7 @@
         <section id="more">More</section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="{{url('script/script.js')}}"></script>
 </body>
 </html>
