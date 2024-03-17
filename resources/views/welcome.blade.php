@@ -27,6 +27,7 @@
             background-image: url('images/activeDesign.png'); /* Path to your image */
             background-repeat: no-repeat;
             background-position: center;
+            cursor: default;
         }
     </style>
 </head>
@@ -46,7 +47,7 @@
                 <span class="material-symbols-outlined">
                     tune
                 </span>
-                <h1>Download Now</h1>
+                <h1><a href="www.youtube.com" style="text-decoration: none; color: gold;">Download Now</a></h1>
             </div>
             <div class="video-container">
                 <video autoplay loop muted style="width: 100%;">
@@ -57,7 +58,9 @@
             <div class="logo-holder">
                 <img src="{{asset('images/HSRSoloLogo.png')}}">
             </div>
+            
         </section>
+
         <section id="news">News</section>
         <section id="characters">Characters</section>
         <section id="worlds">Worlds</section>
