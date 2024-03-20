@@ -58,7 +58,7 @@
             <div class="logo-holder">
                 <img src="{{asset('images/HSRSoloLogo.png')}}">
             </div>
-            <h1>Update</h1>
+            <h1>Update 2</h1>
         </section>
 
         <section id="news">News</section>
